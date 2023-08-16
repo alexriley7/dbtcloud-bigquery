@@ -9,7 +9,7 @@ order_item_measures AS (
 		SUM(item_profit) AS total_profit,
 		SUM(item_discount) AS total_discount
 
-	FROM {{ ref('int_ecommerce__order_items_products') }}
+	FROM {{ ref('int_ecommerce__orders_items_products') }}
 	GROUP BY 1
 )
 
