@@ -15,9 +15,6 @@ models:
 
       - name: status
         description: ""
-        tests:
-          - not_null
-          - unique
 
       - name: gender
         description: ""
