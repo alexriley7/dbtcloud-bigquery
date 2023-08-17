@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: int_ecommerce__order_items_products
+  - name: int_ecommerce__orders_items_products
     description: "Order item data joined to product data"
     columns:
       - name: order_item_id
