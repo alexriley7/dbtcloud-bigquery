@@ -13,7 +13,7 @@ models:
         tests:
           - not_null
 
-      # The "&" is a YML anchor which you can reference later in the file
+      # The "&" is a YML anchor which you can reference later in the file kjj
       - &user_id
         name: user_id
         description: "Unique identifier for a user"
