@@ -16,11 +16,8 @@ models:
       - name: status
         description: ""
         tests:
-          - acepted_values:
-              name: unexpected_error
-              values:
-                - Processing
-                - Cancelled
+          - not_null
+          - unique
 
       - name: gender
         description: ""
