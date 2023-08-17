@@ -33,4 +33,4 @@ FROM {{ ref('stg_ecommerce__orders') }} AS od
 LEFT JOIN order_item_measures AS om
 	ON od.order_id = om.order_id
 
-    --New comment
+    --New comment ueueueue
