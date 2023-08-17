@@ -5,7 +5,7 @@ import time
 import json
 
 #------------------------------------------------------------------------------
-# get environment variables x
+# get environment variables
 #------------------------------------------------------------------------------
 api_base        = os.getenv('DBT_URL', 'https://cloud.getdbt.com/') # default to multitenant url
 job_cause       = os.getenv('DBT_JOB_CAUSE', 'API-triggered job') # default to generic message
